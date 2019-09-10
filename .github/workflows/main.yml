@@ -1,5 +1,7 @@
 name: A workflow for my Hello World file
+
 on: push
+
 jobs:
   build:
     name: Hello world action
@@ -8,4 +10,4 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./action-a
       env:
-        MY_NAME: "Enrique"
+        MY_NAME: Enrique
